@@ -10,7 +10,7 @@ const Projects = () => {
     technologies: ['Html', 'Css', 'Javascript', 'Php', 'Sql'],
     category: 'fullstack',
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example'
+    githubUrl: 'https://github.com/RajCoder9931/Shivam-Stores'
   }, {
     id: 2,
     title: 'Task Notifyer Web App',
@@ -18,7 +18,7 @@ const Projects = () => {
     image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
     technologies: ['React', 'TypeScript', 'Firebase'],
     category: 'frontend',
-    demoUrl: 'https://example.com',
+    demoUrl: 'https://tasknotify.netlify.app/',
     githubUrl: 'https://github.com/RajCoder9931/Task-Notifyer'
   }, {
     id: 3,
@@ -36,8 +36,8 @@ const Projects = () => {
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
     technologies: ['JavaScript', 'HTML5', 'CSS3' , 'React', 'Node.js'],
     category: 'frontend',
-    demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example'
+    demoUrl: '',
+    githubUrl: 'https://github.com/RajCoder9931/Tourism-Website'
   }, {
     id: 5,
     title: ' Job Board Platform',
