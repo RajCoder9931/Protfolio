@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ProjectCard from './ProjectCard';
+import Admin from '../assets/AdminDashboard.png';
 const Projects = () => {
   const [filter, setFilter] = useState('all');
   const projects = [{
@@ -47,15 +48,15 @@ const Projects = () => {
     category: 'fullstack',
     demoUrl: 'https://jobboard-jfgj.onrender.com/',
     githubUrl: 'https://github.com/RajCoder9931/Job-Board'
-  }, {
+  },{
     id: 6,
-    title: 'Screen Recorder (Python)',
-    description: 'A basic screen recorder tool built using Python and NumPy. Captures screen activity and saves recordings locally for quick demos and tutorials.',
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1034&q=80',
-    technologies: ['Python', 'Kinter', 'Recorder'],
-    category: 'backend',
-    demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com/RajCoder9931/Screen-Recoder'
+    title: ' Admin Dashboard (Under Development)',
+    description: 'A comprehensive Admin Dashboard to manage sales, purchases, inventory, users, and employee records. Includes real-time analytics, role-based access, and form-based data control.',
+    image: Admin,
+    technologies: ['React', 'Css', 'Javascript', 'MongoDb' , 'Bootstrap'],
+    category: 'fullstack',
+    demoUrl: 'https://jobboard-jfgj.onrender.com/',
+    githubUrl: 'https://github.com/RajCoder9931/Job-Board'
   }];
   const filteredProjects = filter === 'all' ? projects : projects.filter(project => project.category === filter);
   return <section id="projects" className="py-20 bg-slate-50">
