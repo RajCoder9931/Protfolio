@@ -28,7 +28,7 @@ const Header = () => {
         e.preventDefault();
         scrollToSection('home');
       }}>
-          Dev<span className="text-slate-800">Portfolio</span>
+          Bulid<span className="text-slate-800">&Brush.com</span>
         </a>
         {/* Desktop Navigation */}
         <nav className="hidden md:block">

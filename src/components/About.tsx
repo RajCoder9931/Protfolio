@@ -5,13 +5,13 @@ const About = () => {
     items: ['HTML5', 'CSS3', 'JavaScript',  'React',  'Bootstrap']
   }, {
     category: 'Backend',
-    items: ['Node.js', 'Express', 'Python', 'Django', 'Java']
+    items: ['Node.js', 'Express', 'Python', 'Java']
   }, {
     category: 'Database',
     items: ['MongoDB',  'MySQL',  'Firebase Basic']
   }, {
     category: 'DevOps',
-    items: ['Git', 'GitHub', 'AWS', ]
+    items: ['Git', 'GitHub',  ]
   }];
   return <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">

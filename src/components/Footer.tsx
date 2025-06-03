@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h2 className="text-2xl font-bold">
-              Dev<span className="text-indigo-400">Portfolio</span>
+              Bulid<span className="text-indigo-400">&Brush.com</span>
             </h2>
             <p className="text-slate-400 mt-1">Full Stack Developer</p>
           </div>
