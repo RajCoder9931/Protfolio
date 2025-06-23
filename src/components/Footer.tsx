@@ -29,7 +29,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://chatgpt.com/share/68563eb1-bdb0-800b-915b-d8707fef061e" className="text-slate-300 hover:text-indigo-400 transition-colors">
+                <a href="#projects" className="text-slate-300 hover:text-indigo-400 transition-colors">
                   Projects
                 </a>
               </li>
